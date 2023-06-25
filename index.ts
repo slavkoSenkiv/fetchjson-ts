@@ -5,8 +5,7 @@ interface Todo {
     id: number;
     title: string;
     completed: boolean;
-}
-
+} 
 
 axios.get(url).then(respose =>{
     const todo = respose.data as Todo;
